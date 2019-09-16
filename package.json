@@ -1,0 +1,26 @@
+{
+  "name": "@lucasan/lity-sites-theme",
+  "author": "Lucas Torres <lucas@lucastorres.co>",
+  "description": "Minimalistic Gatsby theme using WordPress as backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby-plugin-react-helmet": "^3.1.7",
+    "gatsby-source-wordpress": "^3.1.31",
+    "react-helmet": "^5.2.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.15.16",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
