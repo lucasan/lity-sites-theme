@@ -39,5 +39,20 @@ module.exports = ({
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Lucas Torres",
+        short_name: "Lucas Torres",
+        start_url: "/",
+        background_color: "rgba(0,8,28,0.93)",
+        theme_color: "rgba(255,255,255,0)",
+        display: "standalone",
+        icon: "src/images/icon.png",
+        crossOrigin: `use-credentials`,
+      }
+    },
+    `@rhysforyou/gatsby-plugin-react-helmet-async`,
+    `gatsby-plugin-sass`
   ],
 })

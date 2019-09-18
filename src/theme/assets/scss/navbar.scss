@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/components/navbar";
+
+html, body {
+  &.has-navbar-fixed-top {
+    padding-top: 4rem;
+  }
+}
